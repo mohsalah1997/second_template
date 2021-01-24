@@ -1,0 +1,38 @@
+.content {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.noncontent div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  /* margin-top: 3rem; */
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.content:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.content div {
+  width: 50%;
+}
+.content img {
+  width: 25rem;
+  height: 20rem;
+  border-radius: 5px;
+}
+.content__hr {
+  margin: 0;
+  width: 5rem;
+}
+.navbar {
+  display: none;
+}
